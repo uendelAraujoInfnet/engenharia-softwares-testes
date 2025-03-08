@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercicio_01_Test.CalculadoraTest" time="0.515" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercicio_01_Test.CalculadoraTest" time="0.548" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="F:\00_EngenhariaTesteSoftwares\tp2\target\test-classes;F:\00_EngenhariaTesteSoftwares\tp2\target\classes;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\dende\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\dende\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik\1.9.1\jqwik-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-api\1.9.1\jqwik-api-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-web\1.9.1\jqwik-web-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-time\1.9.1\jqwik-time-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-engine\1.9.1\jqwik-engine-1.9.1.jar;"/>
+    <property name="java.class.path" value="F:\00_EngenhariaTesteSoftwares\tp2\target\test-classes;F:\00_EngenhariaTesteSoftwares\tp2\target\classes;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\dende\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\dende\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\dende\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\dende\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\dende\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\dende\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik\1.9.1\jqwik-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-api\1.9.1\jqwik-api-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-web\1.9.1\jqwik-web-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-time\1.9.1\jqwik-time-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-engine\1.9.1\jqwik-engine-1.9.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\dende\AppData\Local\Temp\surefire4841604118341367105\surefirebooter-20250308082607400_3.jar C:\Users\dende\AppData\Local\Temp\surefire4841604118341367105 2025-03-08T08-26-07_221-jvmRun1 surefire-20250308082607400_1tmp surefire_0-20250308082607400_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\dende\AppData\Local\Temp\surefire13973590215226913496\surefirebooter-20250308092640674_3.jar C:\Users\dende\AppData\Local\Temp\surefire13973590215226913496 2025-03-08T09-26-40_497-jvmRun1 surefire-20250308092640674_1tmp surefire_0-20250308092640674_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="F:\00_EngenhariaTesteSoftwares\tp2\target\test-classes;F:\00_EngenhariaTesteSoftwares\tp2\target\classes;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\dende\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\dende\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik\1.9.1\jqwik-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-api\1.9.1\jqwik-api-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-web\1.9.1\jqwik-web-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-time\1.9.1\jqwik-time-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-engine\1.9.1\jqwik-engine-1.9.1.jar;"/>
+    <property name="surefire.test.class.path" value="F:\00_EngenhariaTesteSoftwares\tp2\target\test-classes;F:\00_EngenhariaTesteSoftwares\tp2\target\classes;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\dende\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\dende\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dende\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\dende\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\dende\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\dende\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\dende\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\dende\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik\1.9.1\jqwik-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-api\1.9.1\jqwik-api-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-web\1.9.1\jqwik-web-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-time\1.9.1\jqwik-time-1.9.1.jar;C:\Users\dende\.m2\repository\net\jqwik\jqwik-engine\1.9.1\jqwik-engine-1.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dende"/>
     <property name="user.language" value="pt"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dende\AppData\Local\Temp\surefire4841604118341367105\surefirebooter-20250308082607400_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dende\AppData\Local\Temp\surefire13973590215226913496\surefirebooter-20250308092640674_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="somaDeveSerAssociativa" classname="exercicio_01_Test.CalculadoraTest" time="0.335">
-    <system-out><![CDATA[timestamp = 2025-03-08T08:26:08.701069900, CalculadoraTest:somaDeveSerAssociativa = 
+  <testcase name="somaDeveSerAssociativa" classname="exercicio_01_Test.CalculadoraTest" time="0.345">
+    <system-out><![CDATA[timestamp = 2025-03-08T09:26:43.201804800, CalculadoraTest:somaDeveSerAssociativa = 
                               |-----------------------jqwik-----------------------
 tries = 1000                  | # of calls to property
 checks = 1000                 | # of not rejected calls
@@ -69,13 +69,13 @@ when-fixed-seed = ALLOW       | fixing the random seed is allowed
 edge-cases#mode = MIXIN       | edge cases are mixed in
 edge-cases#total = 0          | # of all combined edge cases
 edge-cases#tried = 0          | # of edge cases tried in current run
-seed = -173193931726966787    | random seed to reproduce generated values
+seed = -6014817006752172983   | random seed to reproduce generated values
 
 
 ]]></system-out>
   </testcase>
-  <testcase name="somaDeveSerComutativa" classname="exercicio_01_Test.CalculadoraTest" time="0.092">
-    <system-out><![CDATA[timestamp = 2025-03-08T08:26:08.797399700, CalculadoraTest:somaDeveSerComutativa = 
+  <testcase name="somaDeveSerComutativa" classname="exercicio_01_Test.CalculadoraTest" time="0.086">
+    <system-out><![CDATA[timestamp = 2025-03-08T09:26:43.291807100, CalculadoraTest:somaDeveSerComutativa = 
                               |-----------------------jqwik-----------------------
 tries = 1000                  | # of calls to property
 checks = 1000                 | # of not rejected calls
@@ -85,13 +85,13 @@ when-fixed-seed = ALLOW       | fixing the random seed is allowed
 edge-cases#mode = MIXIN       | edge cases are mixed in
 edge-cases#total = 10         | # of all combined edge cases
 edge-cases#tried = 10         | # of edge cases tried in current run
-seed = -6077175769576168583   | random seed to reproduce generated values
+seed = -8297262259032383428   | random seed to reproduce generated values
 
 
 ]]></system-out>
   </testcase>
-  <testcase name="somaDeveManterElementoNeutro" classname="exercicio_01_Test.CalculadoraTest" time="0.062">
-    <system-out><![CDATA[timestamp = 2025-03-08T08:26:08.863056900, CalculadoraTest:somaDeveManterElementoNeutro = 
+  <testcase name="somaDeveManterElementoNeutro" classname="exercicio_01_Test.CalculadoraTest" time="0.08">
+    <system-out><![CDATA[timestamp = 2025-03-08T09:26:43.375806100, CalculadoraTest:somaDeveManterElementoNeutro = 
                               |-----------------------jqwik-----------------------
 tries = 1000                  | # of calls to property
 checks = 1000                 | # of not rejected calls
@@ -101,7 +101,7 @@ when-fixed-seed = ALLOW       | fixing the random seed is allowed
 edge-cases#mode = MIXIN       | edge cases are mixed in
 edge-cases#total = 10         | # of all combined edge cases
 edge-cases#tried = 10         | # of edge cases tried in current run
-seed = 3279188195500379648    | random seed to reproduce generated values
+seed = 3513832939330988121    | random seed to reproduce generated values
 
 
 ]]></system-out>
