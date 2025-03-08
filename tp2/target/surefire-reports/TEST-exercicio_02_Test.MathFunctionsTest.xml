@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercicio_01_Test.CalculadoraTest" time="0.515" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercicio_02_Test.MathFunctionsTest" time="0.281" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,24 +58,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="somaDeveSerAssociativa" classname="exercicio_01_Test.CalculadoraTest" time="0.335">
-    <system-out><![CDATA[timestamp = 2025-03-08T08:26:08.701069900, CalculadoraTest:somaDeveSerAssociativa = 
+  <testcase name="multiplyByTwoShouldReturnEvenForEvenNumbers" classname="exercicio_02_Test.MathFunctionsTest" time="0.181">
+    <system-out><![CDATA[timestamp = 2025-03-08T08:26:09.056983500, MathFunctionsTest:multiplyByTwoShouldReturnEvenForEvenNumbers = 
                               |-----------------------jqwik-----------------------
 tries = 1000                  | # of calls to property
-checks = 1000                 | # of not rejected calls
+checks = 510                  | # of not rejected calls
 generation = RANDOMIZED       | parameters are randomly generated
 after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
 when-fixed-seed = ALLOW       | fixing the random seed is allowed
 edge-cases#mode = MIXIN       | edge cases are mixed in
-edge-cases#total = 0          | # of all combined edge cases
-edge-cases#tried = 0          | # of edge cases tried in current run
-seed = -173193931726966787    | random seed to reproduce generated values
+edge-cases#total = 9          | # of all combined edge cases
+edge-cases#tried = 9          | # of edge cases tried in current run
+seed = 2861513927869108314    | random seed to reproduce generated values
 
 
 ]]></system-out>
   </testcase>
-  <testcase name="somaDeveSerComutativa" classname="exercicio_01_Test.CalculadoraTest" time="0.092">
-    <system-out><![CDATA[timestamp = 2025-03-08T08:26:08.797399700, CalculadoraTest:somaDeveSerComutativa = 
+  <testcase name="multiplyByTwoShouldBeGreaterOrEqual" classname="exercicio_02_Test.MathFunctionsTest" time="0.09">
+    <system-out><![CDATA[timestamp = 2025-03-08T08:26:09.158983700, MathFunctionsTest:multiplyByTwoShouldBeGreaterOrEqual = 
                               |-----------------------jqwik-----------------------
 tries = 1000                  | # of calls to property
 checks = 1000                 | # of not rejected calls
@@ -83,27 +83,14 @@ generation = RANDOMIZED       | parameters are randomly generated
 after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
 when-fixed-seed = ALLOW       | fixing the random seed is allowed
 edge-cases#mode = MIXIN       | edge cases are mixed in
-edge-cases#total = 10         | # of all combined edge cases
-edge-cases#tried = 10         | # of edge cases tried in current run
-seed = -6077175769576168583   | random seed to reproduce generated values
+edge-cases#total = 5          | # of all combined edge cases
+edge-cases#tried = 5          | # of edge cases tried in current run
+seed = 38754120094169787      | random seed to reproduce generated values
 
 
 ]]></system-out>
-  </testcase>
-  <testcase name="somaDeveManterElementoNeutro" classname="exercicio_01_Test.CalculadoraTest" time="0.062">
-    <system-out><![CDATA[timestamp = 2025-03-08T08:26:08.863056900, CalculadoraTest:somaDeveManterElementoNeutro = 
-                              |-----------------------jqwik-----------------------
-tries = 1000                  | # of calls to property
-checks = 1000                 | # of not rejected calls
-generation = RANDOMIZED       | parameters are randomly generated
-after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
-when-fixed-seed = ALLOW       | fixing the random seed is allowed
-edge-cases#mode = MIXIN       | edge cases are mixed in
-edge-cases#total = 10         | # of all combined edge cases
-edge-cases#tried = 10         | # of edge cases tried in current run
-seed = 3279188195500379648    | random seed to reproduce generated values
-
-
-]]></system-out>
+    <system-err><![CDATA[mar. 08, 2025 8:26:09 AM net.jqwik.engine.execution.AfterFailureParametersGenerator logAfterFailureHandling
+INFO: After Failure Handling: SAMPLE_FIRST, Previous Generation: <GenerationInfo(38754120094169787, 5, [size=2])>
+]]></system-err>
   </testcase>
 </testsuite>
