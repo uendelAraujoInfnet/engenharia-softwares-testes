@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercicio_02_Test.MathFunctionsTest" time="0.13" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercicio_04_Test.CustomerServiceTest" time="0.07" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,36 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="multiplyByTwoShouldReturnEvenForEvenNumbers" classname="exercicio_02_Test.MathFunctionsTest" time="0.086">
-    <system-out><![CDATA[timestamp = 2025-03-09T21:42:45.267404300, MathFunctionsTest:multiplyByTwoShouldReturnEvenForEvenNumbers = 
-                              |-----------------------jqwik-----------------------
-tries = 1000                  | # of calls to property
-checks = 499                  | # of not rejected calls
-generation = RANDOMIZED       | parameters are randomly generated
-after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
-when-fixed-seed = ALLOW       | fixing the random seed is allowed
-edge-cases#mode = MIXIN       | edge cases are mixed in
-edge-cases#total = 9          | # of all combined edge cases
-edge-cases#tried = 9          | # of edge cases tried in current run
-seed = -6577466474837223550   | random seed to reproduce generated values
-
-
-]]></system-out>
-  </testcase>
-  <testcase name="multiplyByTwoShouldBeGreaterOrEqual" classname="exercicio_02_Test.MathFunctionsTest" time="0.04">
-    <system-out><![CDATA[timestamp = 2025-03-09T21:42:45.307015800, MathFunctionsTest:multiplyByTwoShouldBeGreaterOrEqual = 
-                              |-----------------------jqwik-----------------------
-tries = 1000                  | # of calls to property
-checks = 1000                 | # of not rejected calls
-generation = RANDOMIZED       | parameters are randomly generated
-after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
-when-fixed-seed = ALLOW       | fixing the random seed is allowed
-edge-cases#mode = MIXIN       | edge cases are mixed in
-edge-cases#total = 5          | # of all combined edge cases
-edge-cases#tried = 5          | # of edge cases tried in current run
-seed = 743600959168515580     | random seed to reproduce generated values
-
-
-]]></system-out>
-  </testcase>
+  <testcase name="testRegisterCustomer_InvalidAge" classname="exercicio_04_Test.CustomerServiceTest" time="0.008"/>
+  <testcase name="testUpdateCustomer_InactiveCustomer" classname="exercicio_04_Test.CustomerServiceTest" time="0.0"/>
+  <testcase name="testRegisterCustomer_InvalidEmail_NoDomain" classname="exercicio_04_Test.CustomerServiceTest" time="0.0"/>
+  <testcase name="testRegisterCustomer_ValidEmail" classname="exercicio_04_Test.CustomerServiceTest" time="0.0"/>
+  <testcase name="testDeleteCustomer_ActiveCustomer" classname="exercicio_04_Test.CustomerServiceTest" time="0.0"/>
+  <testcase name="testDeleteCustomer_InactiveCustomer" classname="exercicio_04_Test.CustomerServiceTest" time="0.001"/>
+  <testcase name="testRegisterCustomer_ValidAge" classname="exercicio_04_Test.CustomerServiceTest" time="0.001"/>
+  <testcase name="testUpdateCustomer_ActiveCustomer" classname="exercicio_04_Test.CustomerServiceTest" time="0.001"/>
+  <testcase name="testRegisterCustomer_InvalidEmail_NoAtSymbol" classname="exercicio_04_Test.CustomerServiceTest" time="0.009"/>
+  <testcase name="testRegisterCustomer_ValidData" classname="exercicio_04_Test.CustomerServiceTest" time="0.018"/>
 </testsuite>
